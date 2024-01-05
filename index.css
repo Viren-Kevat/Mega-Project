@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #000000;
+}
+/* navigation bar */
+.navbar {
+  height: 100px;
+  max-width: 1140px;
+  position: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: 800;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.work {
+  height: 40px;
+  width: 90px;
+}
+.about {
+  height: 40px;
+  width: 90px;
+}
+/* intro */
+.intro_1 {
+  height: 50px;
+  color: #ffffff;
+  display: grid;
+}
+.name {
+  height: 110px;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(50px);
+}
+.name_p {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-size: calc(25px);
+  opacity: 0.5;
+}
+.intro_2 {
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.me {
+  margin-top: 400px;
+}
+/* main */
+.frstprdt {
+  margin-top: 200px;
+  color: #ffffff;
+}
+.h1 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(50px);
+  color: #ffffff;
+}
+.para {
+  height: 100px;
+  display: grid;
+}
+
+.para h2 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(35px);
+}
+.para p {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(25px);
+}
+.imgbox {
+  height: 1000px;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+}
+.img {
+  height: 636px;
+  width: 1498px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+  height: 500px;
+  width: 500px;
+  background-image: url(images/iphones_front.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15rem;
+  border-radius: 10px;
+}
+.img1:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgb(45, 43, 43);
+}
+
+.img1:active {
+  transform: scale(1.5);
+  transition: 0.1s ease-in-out;
+  box-shadow: 10px 10px 10px rgb(45, 43, 43);
+}
+.img2 {
+  height: 500px;
+  width: 500px;
+  background-image: url(images/iphone_side.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 15rem;
+  border-radius: 10px;
+}
+.img2:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgb(45, 43, 43);
+}
+.img2:active {
+  transform: scale(1.5);
+  transition: 0.1s ease-in-out;
+  box-shadow: 10px 10px 10px rgb(45, 43, 43);
+}
+.img3 {
+  height: 443px;
+  width: 641px;
+  background-image: url(images/iphone_front_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 15rem;
+  margin-top: -135px;
+  border-radius: 10px;
+  margin-left: 219px;
+}
+.img3:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgb(45, 43, 43);
+}
+.img3:active {
+  transform: scale(1.5);
+  transition: 0.1s ease-in-out;
+  box-shadow: 10px 10px 10px rgb(45, 43, 43);
+}
+/* footer */
+.footer {
+  height: 300px;
+  width: 90%;
+  border-top: 2px solid #ffffff;
+  margin: 5%;
+  display: flex;
+}
+.ccontain {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.cpara {
+  height: 200px;
+  width: 300px;
+  color: #ffffff;
+  font-size: calc(20px);
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.cimg {
+  height: 200px;
+  width: 250px;
+  background-image: url(/Mega-Project/images/about.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.email {
+  height: 50px;
+  width: 550px;
+  background-color: #ff0000;
+  color: #fdfdfd;
+  text-decoration: none;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.links ul {
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  right: 80px;
+  margin-top: 50px;
+  text-align: end;
+}
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: calc(35px);
+}

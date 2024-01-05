@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #000000;
+}
+/* navigation bar */
+.navbar {
+  height: 100px;
+  max-width: 1140px;
+  position: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: 800;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.work {
+  height: 40px;
+  width: 90px;
+}
+.about {
+  height: 40px;
+  width: 90px;
+}
+/* main */
+.main {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 0px 0px 0px 30px;
+}
+.first {
+  height: 700px;
+  width: 50%;
+}
+.second {
+  height: 700px;
+  width: 50%;
+  display: grid;
+}
+.h1 {
+  height: 100px;
+  width: 200px;
+  font-size: calc(40px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.para {
+  height: calc(50% - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0px 0px 0px 30px;
+  font-size: calc(30px);
+}
+.img {
+  height: calc(80% - 100px);
+  width: 300px;
+  background-image: url(images/img.ford_car.JPG);
+  background-position: center;
+  background-size: cover;
+  translate: 50%;
+  border-radius: 10px;
+}
+.img:hover {
+  transform: scale(1.09);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(5px 5px 10px #ffffff5c);
+}
+.second a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+#email {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+#email_b {
+  height: 50px;
+  width: 550px;
+  background-color: #ff0000;
+  color: #fdfdfd;
+  text-decoration: none;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+/* footer */
+.footer {
+  height: 300px;
+  width: 90%;
+  border-top: 2px solid #ffffff;
+  margin: 5%;
+  display: flex;
+}
+.ccontain {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.cpara {
+  height: 200px;
+  width: 300px;
+  color: #ffffff;
+  font-size: calc(20px);
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.cimg {
+  height: 200px;
+  width: 250px;
+  background-image: url(/Mega-Project/images/about.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.email {
+  height: 50px;
+  width: 550px;
+  background-color: #ff0000;
+  color: #fdfdfd;
+  text-decoration: none;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.links ul {
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  right: 80px;
+  margin-top: 50px;
+  text-align: end;
+}
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: calc(35px);
+}
