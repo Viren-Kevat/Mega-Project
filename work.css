@@ -35,7 +35,6 @@
 .heading {
   font-weight: 800;
   padding: 0;
-
   font-size: calc(45px);
 }
 .para p {
@@ -50,31 +49,51 @@
   opacity: calc(0.5);
 }
 .post {
-  height: 2800px;
+  height: 4500px;
   display: grid;
   justify-content: center;
 }
-.img1 {
+.pimg {
   height: 500px;
   width: 1000px;
-  background-image: url(images/space.jpg);
   background-size: cover;
   margin: 30px;
   background-position: center;
+  /* z-index: 2; */
 }
-.img1:hover {
+.pimg:hover {
   transform: scale(1.05);
   transition: 0.3s ease-in-out;
   box-shadow: 5px 5px 15px #ffffff41;
   opacity: 0.8;
 }
-.img1:active {
+.pimg:active {
   transform: scale(2);
 }
-.img2 {
+.one {
+  background-image: url(/Mega-Project/images/space.jpg);
+}
+.two {
+  background-image: url(/Mega-Project/images/amazon.jpg);
+}
+.three {
+  background-image: url(/Mega-Project/images/cover.jpg);
+}
+.four {
+  background-image: url(/Mega-Project/images/tic_tack_toe_game.jpg);
+}
+.five {
+  background-image: url(/Mega-Project/images/rock.jpg);
+}
+.six {
+  background-image: url(/Mega-Project/images/youtube.jpeg);
+}
+.seven {
+  background-image: url(/Mega-Project/images/instagram.png);
+}
+/* .img2 {
   height: 500px;
   width: 1000px;
-  background-image: url(images/amazon.jpg);
   background-size: cover;
   margin: 30px;
   background-position: center;
@@ -91,7 +110,6 @@
 .img3 {
   height: 500px;
   width: 1000px;
-  background-image: url(images/cover.jpg);
   background-size: cover;
   margin: 30px;
   background-position: center;
@@ -108,7 +126,6 @@
 .img4 {
   height: 500px;
   width: 1000px;
-  background-image: url(images/youtube.jpeg);
   background-size: cover;
   margin: 30px;
   background-position: center;
@@ -125,7 +142,6 @@
 .img5 {
   height: 500px;
   width: 1000px;
-  background-image: url(images/instagram.png);
   background-size: cover;
   margin: 30px;
   background-position: center;
@@ -139,6 +155,22 @@
 .img5:active {
   transform: scale(2);
 }
+.img6 {
+  height: 500px;
+  width: 1000px;
+  background-size: cover;
+  margin: 30px;
+  background-position: center;
+}
+.img6:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 5px 5px 15px #ffffff41;
+  opacity: 0.8;
+}
+.img6:active {
+  transform: scale(2);
+} */
 /* footer */
 .footer {
   height: 300px;
@@ -169,6 +201,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  /* z-index: 2; */
 }
 .email {
   height: 50px;
@@ -197,4 +230,32 @@
   text-decoration: none;
   font-weight: 700;
   font-size: calc(35px);
+}
+.circle {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  border-radius: 50%;
+  border: 2.5px solid #ffffff;
+  background-color: transparent;
+  transition: all 300ms ease-out;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+.cir {
+  height: 10px;
+  width: 10px;
+  position: fixed;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  transition: all 200ms ease-out;
+  top: 0;
+  left: 0;
+  transform: translate(-25%, -25%);
+  z-index: 1;
+  pointer-events: none;
 }
